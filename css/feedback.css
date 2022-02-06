@@ -1,0 +1,168 @@
+
+body {
+    font-family: tahoma, sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+.trends {
+  width: 100%;
+  margin: 63px 0 63px 0;
+}
+
+.trends-title {
+  text-align: center;
+  display: block;
+  font-size: 22px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1;
+  color: black;
+  margin: 0;
+  border: 1px black;
+  margin-bottom: 29px;
+  
+}
+
+.trends-title:after {
+  content: "";
+  display: block;
+  width: 66px;
+  height: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14px;
+  opacity: 0.5;
+  background-color: #e1d9bd;
+}
+
+.page {
+    width: 400px;
+    padding: 50px;
+    border: 1px solid #cbd1d4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form {
+    display: block;
+    margin-top: 0em;
+}
+
+
+.select-group {
+    display: block;
+}
+
+.select-label {
+    display: block;
+    margin-bottom: 20px;
+
+    font-weight: 400;
+}
+
+.select {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 38px;
+  padding-left: 10px;
+  padding-right: 25px;
+  margin: 0;
+  background-color: #f9f9f9;
+  border: none;
+  font-size: 14px;
+  font-family: Arial,sans-serif;
+  color: #333333;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  }
+
+.select:focus {
+  outline: 2px solid #0f8fee;
+  outline-offset: 4px;
+}
+
+.form-hint {
+}
+
+
+.arrow-icon {
+   
+
+}
+
+.radio-group {
+   width: 1000px;
+  height: 500px;
+  border: 1px black;
+  font-size: 26px;
+  
+}
+
+.radio {
+  width: 50px;
+}
+
+.radio-group-text {
+  
+}
+
+
+.page {
+    width: 400px;
+    padding: 50px;
+   
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.page-msg {
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+.form {
+    display: block;
+    margin-top: 0em;
+}
+
+.form-group:nth-child(n+1) {
+    margin-top: 30px;
+}
+
+.form-actions {
+    text-align: center;
+}
+
+.field-label {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.field {
+    box-sizing: border-box;
+    display: block;
+    width: 400px;
+    border: none;
+    margin: 0;
+    font-size: 13px;
+    padding: 10px 20px;
+    height: 50px;
+    background-color: #f9f9f9;
+}
+
+.button {
+ text-transform: uppercase;
+ font-size: 14px;
+ padding: 10px 25px;
+ border: none;
+ cursor: pointer;
+ margin-top: 20px;     
+}
+
